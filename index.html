@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>WiseSpaces</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-KwxQKNj2D0XKEW5O/Y6haRH39PE/xry8SAoLbpbCMraqlX7kUP6KHOnrlrtvuJLR" crossorigin="anonymous">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/index.f6704e6f.css">
+
+  <link href="https://fonts.cdnfonts.com/css/galano-grotesque-alt" rel="stylesheet">
+                
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+  
+  <style>
+     @import url('https://fonts.cdnfonts.com/css/galano-grotesque-alt');
+
+     .containerk {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+  </style>
+
+
+ <style>
+   
+.glass{
+  background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+ </style>
+
+  <style type="text/css">
+      @font-face {
+        font-family: Roboto;
+        src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+      }
+
+    </style>
+
+        <style>
+    @font-face {
+      font-family: Galano Grotesque;
+      src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/biko-black.woff");
+    }
+    body {
+      background: white;
+      
+    }
+    header {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      
+    }
+    header video {
+      width: 100%;
+    }
+    svg {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; // needed for FF, Safari, Edge
+      height: 100%;
+    }
+    svg text {
+      font-family: Biko, sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 38px;
+    }
+    svg rect {
+      fill: white;
+    }
+    svg > rect {
+      -webkit-mask: url(#mask);
+      mask: url(#mask);
+    }
+    </style>
+
+
+<style type="text/css">
+  /* Glassmorphism card effect */
+.cardk {
+    background: rgba( 255, 250, 250, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+</style>
+
+
+<style type="text/css">
+    @font-face{
+      font-family: "GalanoGrotesqueBold";
+      src: url("assets/fonts/GalanoGrotesqueBold.otf");
+     }
+
+     @font-face{
+      font-family: "GalanoGrotesqueLight";
+      src: url("assets/fonts/GalanoGrotesqueLight.otf");
+     }
+
+      @font-face{
+      font-family: "GalanoGrotesqueRegular";
+      src: url("assets/fonts/GalanoGrotesqueRegular.otf");
+     }
+
+        .rowk{
+      flex-shrink: 0;
+      width: 50%;
+      max-width: 100%;
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * .5);
+      margin-top: var(--bs-gutter-y);
+      }
+
+</style>
+
+
+<style type="text/css">
+  .myClass {
+  transform: translate3d(-5760px, 0px, 0px); transition-duration: 1000ms;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top  ">
+    <div class="container d-flex align-items-center ">
+
+       <a href="index.html" class="logo me-auto"><img src="assets/img/wisespaces_logo.png" alt=""  ></a>
+
+      <nav id="navbar" class="navbar">
+        <ul >
+           <li><a class="nav-link  active" href="index.html" >Home</a></li>
+          <li><a class="nav-link " href="about.html" style="color:black;" >About</a></li>
+          <li><a class="nav-link " href="projects.html" style="color:black;">Projects</a></li>
+          <li><a class="nav-link " href="testimonials.html" style="color:black;">Testimonials</a></li>
+          <li><a class="nav-link " href="blog.html" style="color:black;">Blog</a></li>
+          <li><a class="nav-link " href="contact.html" style="color:black;">Contact Us</a></li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero"  class="headsection" style="margin-top: 120px;"  >
+
+
+   
+       <!-- Shaders slider -->
+    <div class="swiper swiper-gl swiper-initialized swiper-horizontal swiper-watch-progress mySwiper">
+      <canvas width="3840" height="1824" style="width: 1920px; height: 812px;"></canvas>
+      <div class="swiper-wrapper" id="sw">
+        <div class="swiper-slide" data-swiper-slide-index="0" style="width: 1920px;">
+          <!-- shaders image must be a direct child of the slide and have additional "swiper-gl-image" class  -->
+          <img class="swiper-gl-image" src="assets/img/sliders/s1.jpg" alt="">
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-title">BAKER HUGHES</div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-slide-index="1" style="width: 1920px;">
+          <img class="swiper-gl-image" src="assets/img/sliders/s2.jpg" alt="">
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-title">PARADISE OFFICE</div>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 1920px;">
+          <img class="swiper-gl-image" src="assets/img/sliders/s3.jpg" alt="">
+          <div class="swiper-slide-content">
+            <div class="swiper-slide-title">WE HUB</div>
+          </div>
+        </div>
+      
+      </div>
+
+
+       <div class="swiper-button-next"  id="swn" style="display:none;"></div>
+    <div class="swiper-button-prev" style="display:none;"></div>
+    
+   
+    
+
+    </div>
+    
+      
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+  
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about" style="margin-top: 80px;" >
+      <div class="container">
+
+       
+
+        <div class="row ">
+          <div class="col-lg-6 col-md-6 col-sm-6" >
+
+            <div class="containerk">
+            <header >
+            <video autoplay playsinline muted loop preload poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/oceanshot.jpg">
+              <source src="https://play4deal.com/sampleid.mp4" />
+            
+            </video>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 180" preserveAspectRatio="xMidYMid slice">
+              <defs>
+              <mask id="mask" x="0" y="0" width="100%" height="100%" >
+                <rect x="0" y="0" width="100%" height="100%" />
+               <text x="2"  y="50">About Us</text>
+               
+                </mask>
+            </defs>
+           <rect x="0" y="0" width="100%" height="100%" />
+            </svg>
+          </header>
+          <script>
+          const video = document.querySelector("video");
+          if (window.matchMedia("(prefers-reduced-motion)").matches) {
+            video.removeAttribute("autoplay");
+            video.pause();
+          }
+
+          </script>
+          </div>
+
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <p style="color :black;font-family: 'GalanoGrotesqueRegular', Regular;text-align:justify;">
+              WiseSpacess is an Interior Designing management partner for Corporate entities with a one-stop solution for space planning, interior design, and execution across all types of real estate spaces such as corporate offices, retail, hospitality, etc. Based on your interior design requirements and style, we assign an expert design consultant who is the right fit for you and your project.
+            </p>
+             <div class="containerk">
+            <button class="custom-btn btn-16">Know &nbsp More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Projects Category Section ======= -->
+    <section  id="projects"  class="projects">
+
+            <div class="section-title">
+               <h2>Projects</h2>
+            </div>
+
+
+           <div class="container containerk" >
+                 <div class="row">
+                 <div class="col-sm-4 col-md-4 col-lg-4">
+
+                   <div class="card" style="background-image: url(corporate.jpeg);" >
+                     
+                  
+                   </div>
+
+                   
+                   <button class="custom-btn btn-16" style="margin-left:95px;">Corporate</button>
+
+                 </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+
+                   <div class="card" style="background-image: url(rd.jpeg);" >
+                       
+                     
+                   </div>
+
+                   <button class="custom-btn btn-16" style="margin-left:95px;">Restaurants</button>
+
+               </div>
+
+               <div class="col-sm-4 col-md-4 col-lg-4">
+
+
+                 <div class="card" style="background-image: url(retail.jpeg);">
+                     
+                    
+                 </div>
+
+                 <button class="custom-btn btn-16" style="margin-left:95px;">Retail</button>
+
+               </div>
+
+           </div>
+
+        </div>
+    
+      </section>
+      <!-- Projects Category Section -->
+
+
+
+
+
+      <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog" style="margin-top:40px;">
+
+
+            <div class="section-title">
+               <h2>Blog</h2>
+            </div>
+       
+
+    <iframe frameborder="0" scrolling="no" style="height:400px;width:100%;border:none;" src='blogsection/index.html'></iframe>
+     
+          
+    </section><!-- Blog Section -->
+
+    <!-- ======= clients Section ======= -->
+    
+
+
+              <!-- ======= Clients Section ======= -->
+    <section id="clients" class="container clients section-bg" style="margin-top:40px;">
+
+      <div class="section-title">
+               <h2>Clients </h2>
+            </div>
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+
+         
+    
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <br>
+      <div class="section-title">
+          <h2>Contact</h2>
+          
+        </div>
+      <div class="container" data-aos="fade-up">
+
+            <br>  
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-sm-6 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p style="color :black;font-family: 'GalanoGrotesqueLight', Light">Plot No 82, Camelot Layout, Amrita Towers, <br>Botanical Garden Road, Kondapur, Hyderabad, <br>Rangareddy, Telangana, 500084</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p style="color :black;font-family: 'GalanoGrotesqueLight', Light"><a href="mailto:info@WiseSpacess.in">info@WiseSpacess.in</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p style="color :black;font-family: 'GalanoGrotesqueLight', Light"><a href="tel:+917093705100">+91 70937 05100</a></p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name" style="color:black;">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name" style="color:black;">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name" style="color:black;">Phone</label>
+                <input type="text" class="form-control" name="phone" id="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="name" style="color:black;" >Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="custom-btn btn-16">Submit</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+       
+        
+        <div class="row">
+
+          <div class="col-lg-3 col-md-3  col-sm-3 col-xs-2">
+            <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" width="300" height="200" style="margin-left: -95px;margin-top: -45px;" ></a>
+          
+          </div>
+
+
+           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2">
+            <h4>Contact Links</h4>
+            <ul style="padding-left:0px;">
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">+91 7093705100</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">Hyderabad</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="projects.html">info@WiseSpacess.in</a></li>
+              
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Useful Links</h4>
+            <ul style="padding-left:0px;">
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="projects.html">Projects</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="testimonials.html">Testimonials</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Our Social Networks</h4>
+
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+         
+         </div>
+        
+      </div>
+    </div>
+
+    <div class="footer-bottom clearfix">
+      
+      
+      
+        &copy; Copyright 2023 <strong><span>WiseSpaces</span></strong>. All Rights Reserved
+      
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+    <script type="module" crossorigin="" src="assets/js/index.js"></script>
+  <!-- <link rel="modulepreload" href="assets/js/vendor.409190d6.js"> -->
+
+
+     <!-- Initialize Swiper -->
+  
+
+   <script type="text/javascript">
+     
+     window.onload = function(){
+    var button = document.getElementById('swn');
+    setInterval(function(){
+        button.click();
+       var sw=document.getElementById("#sw");
+      sw.style = 'transform: translate3d(-5760px, 0px, 0px); transition-duration: 1000ms';
+    },2000);  // this will make it click again every 1000 miliseconds
+};
+   </script>
+
+
+  <script>
+      const video = document.querySelector("video");
+      if (window.matchMedia('(prefers-reduced-motion)').matches) {
+        video.removeAttribute("autoplay");
+        video.pause();
+      }
+    </script>
+
+
+</body>
+
+</html>
